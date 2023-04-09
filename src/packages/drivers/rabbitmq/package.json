@@ -1,17 +1,21 @@
 {
-  "name": "athus-driver-rabbitmq",
+  "name": "@athus/driver-rabbitmq",
   "version": "1.0.0",
-  "description": "Driver for rabbit for controlling a QueueManager on athus-core",
+  "description": "",
   "main": "index.js",
-  "keywords": [
-    "rabbitmq",
-    "queue-manager",
-    "athus"
-  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabolera/npclean.git",
+    "directory": "dist/packages/drivers/rabbitmq"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.10.3"
+    "amqplib": "^0.10.3",
+    "athus": "^1.0.0"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.1"

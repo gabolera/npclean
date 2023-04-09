@@ -1,5 +1,5 @@
 {
-  "name": "npm-athus",
+  "name": "athus",
   "version": "1.0.0",
   "description": "",
   "main": "dist/core/index.js",

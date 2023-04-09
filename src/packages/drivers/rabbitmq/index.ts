@@ -1,6 +1,7 @@
+import { QueueManager } from "../../../core"
 import amqp, { Channel } from "amqplib"
 
-export class RabbitMQ {
+export class RabbitMQ implements QueueManager {
   private _channel?: Channel
   private _assertQueueSettings?: any = {}
   private _hostRabbit: string | undefined = undefined
