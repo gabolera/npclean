@@ -1,0 +1,19 @@
+{
+  "name": "athus-driver-rabbitmq",
+  "version": "1.0.0",
+  "description": "Driver for rabbit for controlling a QueueManager on athus-core",
+  "main": "index.js",
+  "keywords": [
+    "rabbitmq",
+    "queue-manager",
+    "athus"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1"
+  }
+}

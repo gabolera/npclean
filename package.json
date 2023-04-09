@@ -1,0 +1,35 @@
+{
+  "name": "npm-athus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx prettier src/** --write",
+    "build": "rimraf ./dist; tsc build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabolera/npclean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabolera/npclean/issues"
+  },
+  "homepage": "https://github.com/gabolera/npclean#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4",
+    "vitest": "^0.29.8"
+  },
+  "_moduleAliases": {
+    "@": "dist"
+  },
+  "dependencies": {
+    "rimraf": "^4.4.1"
+  }
+}
