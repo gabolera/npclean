@@ -2,7 +2,7 @@
   "name": "npm-athus",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/core/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx prettier src/** --write",
